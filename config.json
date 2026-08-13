@@ -1,0 +1,29 @@
+{
+  "bot": {
+    "token": "BOT TOKEN U",
+    "adminId": 5808698594,
+    "dev": "@wanziet999",
+    "startPhoto": "https://files.catbox.moe/tcb5zp.jpg",
+    "forceJoin": [
+      "@TgMerxio"
+    ]
+  },
+  "telegram": {
+    "apiId": 30286432,
+    "apiHash": "14d7c53b3bac1494c0fcc8bb36cc0ce0"
+  },
+  "channel": {
+    "id": -1004310834121,
+    "username": "@TgMerxio"
+  },
+  "qris": {
+    "imageUrl": "https://files.catbox.moe/qx3uep.jpg",
+    "imagePath": "./image/qris.jpg"
+  },
+  "database": {
+    "uri": "MONGO-DB LU",
+    "name": "sesoin"
+  },
+  "nercpay": {
+   "apikey": "APIKEY NERCPAY LU" }
+}
