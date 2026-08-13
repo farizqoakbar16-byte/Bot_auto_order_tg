@@ -1,34 +1,21 @@
 {
-  "name": "telegram-ubot",
+  "name": "bot-jualan-akun",
   "version": "1.0.0",
-  "description": "Arabs UBot Premium - Telegram Userbot Manager",
+  "description": "Bot Telegram jualan akun",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "install-deps": "npm install --legacy-peer-deps --omit=dev",
-    "setup": "npm install --legacy-peer-deps --omit=dev && node index.js"
-  },
-  "dependencies": {
-    "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^6.7.5",
-    "axios": "^1.6.7",
-    "cheerio": "^1.0.0-rc.12",
-    "jimp": "^1.6.0",
-    "node-cache": "^5.1.2",
-    "node-json-db": "^2.3.0",
-    "node-ssh": "^13.2.1",
-    "telegraf": "^4.16.3",
-    "telegram": "^2.24.11"
-  },
-  "optionalDependencies": {
-    "better-sqlite3": "^9.4.3",
-    "bufferutil": "^4.0.8",
-    "utf-8-validate": "^6.0.3"
+    "install": "npm install --legacy-peer-deps"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "20.x",
+    "npm": "10.x"
   },
-  "keywords": ["telegram", "userbot", "pterodactyl"],
-  "author": "Arabs UBot",
-  "license": "MIT"
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.6.0",
+    "mongoose": "^7.8.0",
+    "axios": "^1.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.0.0"
+  }
 }
