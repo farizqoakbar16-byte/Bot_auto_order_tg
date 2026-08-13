@@ -4,12 +4,10 @@
   "description": "Bot Telegram jualan akun",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "install": "npm install --legacy-peer-deps"
+    "start": "node index.js"
   },
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": "20.x"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
